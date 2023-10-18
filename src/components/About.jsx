@@ -1,10 +1,9 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
-import logo_green from "../assets/logo_green.png";
-import aboutImg from "../assets/aboutImg.jpg";
 import startupIndia from "../assets/Startup_India.png";
 import startupKarnataka from "../assets/Startup_Karnataka.png";
+import logo_green from "../assets/logo_green.png";
 const About = () => {
   return (
     <div

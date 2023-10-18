@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import CarouselProducts from "./CarouselProducts";
 import { motion } from "framer-motion";
-import heroCover_0 from "../assets/heroCover_0.jpg";
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import bgCover_1 from "../assets/bgCover_1.jpg";
 import bg_Cover_02 from "../assets/bg_Cover_02.jpg";
-import GardenSoln from "../assets/GardenSoln.jpg";
+import heroCover_0 from "../assets/heroCover_0.jpg";
+import CarouselProducts from "./CarouselProducts";
 
 const Hero = () => {
   const [currentCover, setCurrentCover] = useState(0);

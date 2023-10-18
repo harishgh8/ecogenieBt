@@ -39,8 +39,11 @@ const Hero = () => {
     const intervalId = setInterval(() => {
       setCurrentCover((currentCover + 1) % covers.length);
     }, 4000);
-    return () => clearInterval(intervalId);
-  }, [currentCover]);
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, [covers.length, currentCover]);
 
   return (
     <div

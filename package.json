@@ -2,7 +2,7 @@
   "name": "egbtc",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://harishgh8.github.io/egbtc",
+  "homepage": "https://harishgh8.github.io/ecogenieBt",
   "dependencies": {
     "@babel/plugin-transform-private-property-in-object": "^7.22.11",
     "@emailjs/browser": "^3.11.0",

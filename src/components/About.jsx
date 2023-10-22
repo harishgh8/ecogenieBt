@@ -6,10 +6,7 @@ import startupKarnataka from "../assets/Startup_Karnataka.png";
 import logo_green from "../assets/logo_green.png";
 const About = () => {
   return (
-    <div
-      className="w-full  py-5 px-4 bg-teal-900 "
-      // style={{ backgroundImage: `url(${aboutImg})`, backgroundSize: "cover" }}
-    >
+    <div className="w-full  py-5 px-4 bg-teal-900 ">
       <div className=" mx-auto  grid md:grid-cols-2 ">
         <Link to="/">
           <div className="m-5">
@@ -17,7 +14,6 @@ const About = () => {
           </div>
         </Link>
         <div className="flex flex-col justify-center items-center md:items-start">
-          {/* <p className="text-[#00df9a] font-bold ">Save soil</p> */}
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-neutral-200">
             About Us
           </h1>
@@ -60,9 +56,6 @@ const About = () => {
             >
               KNOW MORE
             </motion.button>
-            {/* <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
-              CONTACT US
-            </button> */}
           </Link>
         </div>
       </div>

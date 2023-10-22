@@ -5,7 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-
+If required please install tailwindcss using this code
+###  `npm install -D tailwindcss`
 ### `npm start`
 
 Runs the app in the development mode.\

@@ -48,11 +48,11 @@ const Hero = () => {
   return (
     <div
       className="bg-teal-900 h-screen text-white"
-      style={{
-        backgroundImage: `url(${covers[currentCover].image})`,
-        backgroundSize: "cover",
-        transition: "background-image 1s ease-in-out",
-      }}
+      // style={{
+      //   backgroundImage: `url(${covers[currentCover].image})`,
+      //   backgroundSize: "cover",
+      //   transition: "background-image 1s ease-in-out",
+      // }}
     >
       <div className="w-full h-screen mx-auto text-center flex flex-col md:flex-row justify-center align-center   px-4 md:px-10">
         <span className="max-w-[800px] md:w-[800px] flex flex-col justify-center mt-55 sm:mt-0">

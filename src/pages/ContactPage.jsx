@@ -50,10 +50,10 @@ const ContactPage = () => {
     <>
       <div
         className="bg-teal-800 text-white pt-10"
-        style={{
-          backgroundImage: `url(${bgCover_1})`,
-          backgroundSize: "cover",
-        }}
+        // style={{
+        //   backgroundImage: `url(${bgCover_1})`,
+        //   backgroundSize: "cover",
+        // }}
       >
         <div className=" mx-auto text-center flex flex-col md:flex-row  justify-end align-center px-4 md:px-10">
           <span className="max-w-[800px] md:w-[800px] flex flex-col  justify-top  pb-10 pt-20 sm:pb-0">
@@ -102,7 +102,7 @@ const ContactPage = () => {
             </div>
           </span>
 
-          <span className="max-w-[800px] md:w-[800px] flex flex-col justify-top pt-20">
+          <span className="max-w-[800px] md:w-[800px] flex flex-col justify-top p-20">
             <div className="w-full md:w-1/2 pb-20 sm:pb-0 sm:pl-20">
               <h1 className="text-3xl font-bold mb-4 sm:text-left text-[#00df9a]">
                 ENQUIRY FORM
@@ -144,7 +144,7 @@ const ContactPage = () => {
                     name="message"
                   ></textarea>
                 </div>
-                <div className="flex justify-center sm:justify-start">
+                <div className="flex justify-center sm:justify-start ">
                   <motion.button
                     whileHover={{ scale: 1.2 }}
                     onHoverStart={(e) => {}}

@@ -113,7 +113,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-teal-800 text-neutral-200 text-xs flex justify-center h-10">
+      <div className="bg-teal-800 text-neutral-200 text-xs flex justify-center h-8 p-2">
         © All rights reserved by ecoGenei biotech, Bengaluru{" "}
       </div>
     </>

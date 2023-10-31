@@ -15,6 +15,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
+
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/AllProductsPage" element={<AllProductsPage />} />
@@ -22,6 +23,7 @@ function App() {
           <Route path="/Solutions" element={<OurSolutionsPage />} />
           <Route path="/Blog" element={<Blog />} />
         </Routes>
+
         <Footer />
         <WhatsAppWidget />
       </BrowserRouter>

@@ -3,14 +3,19 @@ import About from "../components/About";
 import Analytics from "../components/Analytics";
 import Cards from "../components/Cards";
 import Hero from "../components/Hero";
+import ParticleContainer from "../components/ParticleContainer";
 
 const HomePage = () => {
   return (
     <div>
-      <Hero />
-      <Analytics />
-      <About />
-      <Cards />
+      <div>
+        <ParticleContainer />
+        {/* Your other content goes here */}
+        <Hero />
+        <Analytics />
+        <About />
+        <Cards />
+      </div>
     </div>
   );
 };

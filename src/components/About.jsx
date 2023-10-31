@@ -8,13 +8,26 @@ const About = () => {
   return (
     <div className="w-full  py-5 px-4 bg-teal-900 ">
       <div className=" mx-auto  grid md:grid-cols-2 ">
-        <Link to="/">
-          <div className="m-5">
+        <div className="m-5 flex flex-col justify-center items-center bg-slate-100 rounded-lg">
+          <Link to="/">
             <img className="h-14 sm:h-40 mx-auto " src={logo_green} alt="/" />
+          </Link>
+          <div className=" flex justify-center items-center pt-10">
+            <img
+              className="h-8 sm:h-14 ml-0 "
+              src={startupIndia}
+              alt="startupindia"
+            ></img>
+            <img
+              className="h-8 sm:h-14 ml-0 "
+              src={startupKarnataka}
+              alt="startupKarnatak"
+            ></img>
           </div>
-        </Link>
-        <div className="flex flex-col justify-center items-center md:items-start">
-          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-neutral-200">
+        </div>
+
+        <div className="flex flex-col justify-center items-center md:items-start bg-teal-900">
+          <h1 className="md:text-3xl sm:text-2xl text-1xl font-bold py-2 text-neutral-200">
             About Us
           </h1>
           <br />
@@ -36,7 +49,7 @@ const About = () => {
             they can be disposed of responsibly and have a second life.
           </p>
           <br />
-          <div className=" flex">
+          {/* <div className=" flex">
             <img
               className="h-8 sm:h-14 ml-0 "
               src={startupIndia}
@@ -47,7 +60,7 @@ const About = () => {
               src={startupKarnataka}
               alt="startupKarnatak"
             ></img>
-          </div>
+          </div> */}
           <Link to="/Contact">
             <motion.button
               whileHover={{ scale: 1.2 }}

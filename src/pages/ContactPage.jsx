@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import React, { useRef, useState } from "react";
 import { FiPhone } from "react-icons/fi/index.esm";
 import { GoLocation, GoMail } from "react-icons/go/index.esm";
-import bgCover_1 from "../assets/bgCover_1.jpg";
 const ContactPage = () => {
   const form = useRef();
   const [messageSent, setMessageSent] = useState(false);

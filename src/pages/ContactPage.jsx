@@ -25,8 +25,8 @@ const ContactPage = () => {
 
     emailjs
       .sendForm(
-        "service_57frdgr",
-        "template_vb5lxpn",
+        "service_x0p9nic",
+        "template_ljbive4",
         form.current,
         "ZCbeEpQyku_3xUQEj"
       )
@@ -48,13 +48,13 @@ const ContactPage = () => {
   return (
     <>
       <div
-        className="bg-teal-800 text-white pt-10"
+        className="bg-teal-800 text-white pt-10 "
         // style={{
         //   backgroundImage: `url(${bgCover_1})`,
         //   backgroundSize: "cover",
         // }}
       >
-        <div className=" mx-auto text-center flex flex-col md:flex-row  justify-end align-center px-4 md:px-10">
+        <div className=" mx-auto text-center flex flex-col md:flex-row  justify-end align-center px-4 md:px-10 h-screen">
           <span className="max-w-[800px] md:w-[800px] flex flex-col  justify-top  pb-10 pt-20 sm:pb-0">
             <p className="text-[#00df9a] font-bold p-2 sm:text-left text-3xl flex  justify-center sm:justify-start">
               Contact Details
@@ -84,7 +84,7 @@ const ContactPage = () => {
                   </p>
                   <h4 className="sm:text-left p-2">
                     {" "}
-                    ecogeniebiotech@gmail.com
+                    info@ecogeniebiotech.com
                   </h4>
                 </div>
               </div>
@@ -162,7 +162,7 @@ const ContactPage = () => {
               </form>
               {messageSent && (
                 <div>
-                  <div className="bg-green-500 text-white font-bold rounded-md px-4 py-2">
+                  <div className="bg-green-500 text-white font-bold rounded-md px-4 py-4">
                     Thank you, message sent
                   </div>
                 </div>

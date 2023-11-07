@@ -33,16 +33,6 @@ const Navbar = () => {
             <img className=" h-8 sm:h-14 mx-auto" src={logo_02} alt="/" />
           </div>
         </Link>
-        {/* <img
-          className="h-8 sm:h-8 ml-0 "
-          src={startupIndia}
-          alt="startupindia"
-        ></img>
-        <img
-          className="h-8 sm:h-8 ml-0 "
-          src={startupKarnataka}
-          alt="startupKarnatak"
-        ></img> */}
       </div>
 
       <ul className="hidden md:flex">
@@ -50,7 +40,7 @@ const Navbar = () => {
           <motion.button
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
-            className="px-6 font-bold text-neutral-200"
+            className="px-6 font-bold text-neutral-200  "
           >
             PRODUCTS
           </motion.button>
@@ -73,6 +63,7 @@ const Navbar = () => {
             BLOG
           </motion.button>
         </Link>
+
         <Link to="/Contact">
           <motion.button
             whileHover={{ scale: 1.2 }}
@@ -102,10 +93,11 @@ const Navbar = () => {
           </Link>
         </h1>
         <Link to="/AllProductsPage">
-          <li className="p-4 text-[#00df9a]" onClick={handleNav}>
+          <li className="p-4 text-[#00df9a] " onClick={handleNav}>
             PRODUCTS
           </li>
         </Link>
+
         <Link to="/Solutions">
           <li className="p-4 text-[#00df9a]" onClick={handleNav}>
             OUR TECHNOLOGY
@@ -116,6 +108,7 @@ const Navbar = () => {
             BLOG
           </li>
         </Link>
+
         <Link to="/Contact">
           <li className="p-4 text-[#00df9a]" onClick={handleNav}>
             CONTACT

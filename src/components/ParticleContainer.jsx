@@ -7,14 +7,14 @@ const ParticleContainer = () => {
     await loadFull(engine);
   }, []);
 
-  const pariclesLoaded = useCallback(async () => {}, []);
+  const particlesLoaded = useCallback(async () => {}, []);
 
   return (
     <Particles
       className="w-full h-full absolute translate-z-0"
       id="tsparticles"
       init={particlesInit}
-      loaded={pariclesLoaded}
+      loaded={particlesLoaded}
       options={{
         fullScreen: { enable: false },
         background: {
@@ -22,12 +22,12 @@ const ParticleContainer = () => {
             value: "",
           },
         },
-        fpsLimit: 120,
+        fpsLimit: 60,
         interactivity: {
           events: {
             onClick: {
               enable: false,
-              mode: "push",
+              mode: "hover",
             },
             onHover: {
               enable: true,

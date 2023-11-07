@@ -1,13 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Open+Sans:wght@300&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
 body {
   /* background-image: url('../src/assets/hero1.jpg'); */
- /* background-color: #000300 */
-  
+  /* background-color: #000300 */
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* .bg-hero-pattern {

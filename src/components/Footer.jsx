@@ -20,7 +20,7 @@ const Footer = () => {
           <Link to="/">
             <img className="h-8 sm:h-14 ml-0 " src={logo_bw} alt="/" />
           </Link>
-          <p className="py-4">
+          <p className="py-4   text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 to-green-600">
             Empowering a Greener Future with Cutting-Edge Biotechnology
             Products.
           </p>
@@ -99,6 +99,9 @@ const Footer = () => {
             <ul>
               <li className="py-2 text-sm">About</li>
               <li className="py-2 text-sm">Blog</li>
+              <Link to="/Career">
+                <li className="py-2 text-sm">Careers</li>
+              </Link>
             </ul>
           </div>
           <div>
@@ -106,7 +109,7 @@ const Footer = () => {
               Legal
             </h6>
             <ul>
-              <li className="py-2 text-sm">Licence</li>
+              <li className="py-2 text-sm">License</li>
               <li className="py-2 text-sm">Policy</li>
               <li className="py-2 text-sm">Terms</li>
             </ul>

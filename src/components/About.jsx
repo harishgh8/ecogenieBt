@@ -27,11 +27,11 @@ const About = () => {
         </div>
 
         <div className="flex flex-col justify-center items-center md:items-start bg-teal-900">
-          <h1 className="md:text-3xl sm:text-2xl text-1xl font-bold py-2 text-neutral-200">
+          <h1 className="md:text-3xl sm:text-2xl text-1xl font-bold py-2 text-neutral-200 text-transparent bg-clip-text bg-gradient-to-br from-teal-400 to-green-600">
             About Us
           </h1>
           <br />
-          <p className="text-neutral-100  text-sm sm:text-lg">
+          <p className="text-neutral-100  text-sm sm:text-sm">
             At ecoGenie we strive to create a better future for our planet by
             providing eco-friendly products that minimize harm to the
             environment. Our motto reflects our commitment to sustainability and
@@ -49,18 +49,7 @@ const About = () => {
             they can be disposed of responsibly and have a second life.
           </p>
           <br />
-          {/* <div className=" flex">
-            <img
-              className="h-8 sm:h-14 ml-0 "
-              src={startupIndia}
-              alt="startupindia"
-            ></img>
-            <img
-              className="h-8 sm:h-14 ml-0 "
-              src={startupKarnataka}
-              alt="startupKarnatak"
-            ></img>
-          </div> */}
+
           <Link to="/Contact">
             <motion.button
               whileHover={{ scale: 1.2 }}

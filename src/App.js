@@ -9,6 +9,7 @@ import ContactPage from "./pages/ContactPage";
 import HomePage from "./pages/HomePage";
 import OurSolutionsPage from "./pages/OurSolutionsPage";
 import Blog from "./pages/Blog";
+import Career from "./pages/Career";
 
 function App() {
   return (
@@ -21,9 +22,9 @@ function App() {
           <Route path="/AllProductsPage" element={<AllProductsPage />} />
           <Route path="/Contact" element={<ContactPage />} />
           <Route path="/Solutions" element={<OurSolutionsPage />} />
+          <Route path="/Career" element={<Career />} />
           <Route path="/Blog" element={<Blog />} />
         </Routes>
-
         <Footer />
         <WhatsAppWidget />
       </BrowserRouter>

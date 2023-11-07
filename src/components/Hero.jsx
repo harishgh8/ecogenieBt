@@ -1,16 +1,13 @@
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import bgCover_1 from "../assets/bgCover_1.jpg";
-import bg_Cover_02 from "../assets/bg_Cover_02.jpg";
-import heroCover_0 from "../assets/heroCover_0.jpg";
+
 import CarouselProducts from "./CarouselProducts";
 
 const Hero = () => {
   const [currentCover, setCurrentCover] = useState(0);
   const covers = [
     {
-      image: heroCover_0,
       title: "Towards sustainability",
       subtitle:
         "Transforming Industries with Our Sustainable Biotech Innovations",
@@ -18,7 +15,6 @@ const Hero = () => {
       buttonLink: "/Solutions",
     },
     {
-      image: bgCover_1,
       title: "Ecofriendly",
       subtitle:
         "Sustainability Meets Technology: Discover Our Ecofriendly Biotech Products",
@@ -26,7 +22,6 @@ const Hero = () => {
       buttonLink: "/About",
     },
     {
-      image: bg_Cover_02,
       title: "Innovative",
       subtitle:
         "Innovative Biotech Products for a Cleaner and Healthier Environment",
@@ -46,20 +41,13 @@ const Hero = () => {
   }, [covers.length, currentCover]);
 
   return (
-    <div
-      className="bg-teal-900 h-screen text-white"
-      // style={{
-      //   backgroundImage: `url(${covers[currentCover].image})`,
-      //   backgroundSize: "cover",
-      //   transition: "background-image 1s ease-in-out",
-      // }}
-    >
+    <div className="bg-teal-900 h-screen text-white">
       <div className="w-full h-screen mx-auto text-center flex flex-col md:flex-row justify-center align-center   px-4 md:px-10">
         <span className="max-w-[800px] md:w-[800px] flex flex-col justify-center mt-55 sm:mt-0">
-          <p className="text-[#00df9a] font-bold p-2 sm:text-left">
+          <p className="text-[#00df9a] font-bold p-2 sm:text-left text-transparent bg-clip-text  bg-gradient-to-tl from-purple-300 to-red-600">
             {covers[currentCover].title}
           </p>
-          <h1 className="md:text-4xl sm:text-4xl text-2xl font-bold  sm:text-left">
+          <h1 className="pl-2 md:text-4xl sm:text-4xl text-2xl font-bold  sm:text-left text-transparent bg-clip-text bg-gradient-to-tr from-yellow-600 to-green-500">
             {covers[currentCover].subtitle}
           </h1>
           <Link to={covers[currentCover].buttonLink}>

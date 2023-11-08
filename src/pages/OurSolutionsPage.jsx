@@ -1,6 +1,7 @@
 import React from "react";
 import SolutionsCard from "../components/SolutionsCard";
 import { Solutions } from "../data/solutionsData";
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 const OurSolutionsPage = () => {
   return (
@@ -19,6 +20,7 @@ const OurSolutionsPage = () => {
           </div>
         </div>
       </div>
+      <ScrollToTopButton />
     </>
   );
 };

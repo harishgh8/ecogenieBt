@@ -4,6 +4,7 @@ import Analytics from "../components/Analytics";
 import Cards from "../components/Cards";
 import Hero from "../components/Hero";
 import ParticleContainer from "../components/ParticleContainer";
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
         <Analytics />
         <About />
         <Cards />
+        <ScrollToTopButton />
       </div>
     </div>
   );

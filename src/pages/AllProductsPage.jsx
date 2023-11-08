@@ -2,6 +2,7 @@ import React from "react";
 import ProductCard from "../components/ProductsCard";
 
 import { PRODUCTS } from "../data/productsData";
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 const AllProductsPage = () => {
   return (
@@ -15,6 +16,7 @@ const AllProductsPage = () => {
           </div>
         </div>
       </div>
+      <ScrollToTopButton />
     </>
   );
 };

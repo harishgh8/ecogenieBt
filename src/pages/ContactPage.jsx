@@ -1,6 +1,7 @@
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import React, { useRef, useState } from "react";
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 const ContactPage = () => {
   const form = useRef();
@@ -167,6 +168,7 @@ const ContactPage = () => {
           ></iframe>
         </div>
       </div>
+      <ScrollToTopButton />
     </>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import { blogPosts } from "../data/blogData";
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 export const BlogCard = ({ title, author, date, content }) => {
   const paragraphs = content.split("\n");
@@ -53,6 +54,7 @@ const Blog = () => {
             ))}
           </div>
         </div>
+        <ScrollToTopButton />
       </div>
     </>
   );

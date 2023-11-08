@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
+import ScrollToTopButton from "../components/ScrollToTopButton";
 
 const JobListing = ({ title, location }) => (
   <div className=" p-4 my-4 shadow-md rounded-lg bg-teal-600">
@@ -127,6 +128,7 @@ const Career = () => {
           </div>
         </div>
       </div>
+      <ScrollToTopButton />
     </div>
   );
 };

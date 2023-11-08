@@ -66,7 +66,7 @@ const ParticleContainer = () => {
               default: "bounce",
             },
             random: false,
-            speed: 1,
+            speed: 1, // Set the speed to 1 for constant speed
             straight: false,
           },
           number: {
